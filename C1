@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <fieldset>
+            <h2> Enter first number</h2>
+            <input type="text" id="n1" name="n1" /><br>
+            <h2> Enter second number</h2>
+            <input type="text" id="n2" name="n2" /><br>
+            <br>
+            <button value="add" onclick="addition()">addition</button>
+            <button value="sub" onclick="substraction()">substraction</button>
+            <button value="mul" onclick="multiplication()">multiplication</button>
+            <button value="div" onclick="division()">division</button>
+            <script>
+                function addition()
+                {
+                    const a=parseInt(document.getElementById("n1").value);
+                    const b=parseInt(document.getElementById("n2").value);
+                    const c=a+b;
+                    document.getElementById("Result").value=c;
+                }
+            </script>
+            <h2>Result</h2>
+            <input type="text" id="Result" name="Result" /><br>
+        </fieldset>   
+    </body>
+</html>
