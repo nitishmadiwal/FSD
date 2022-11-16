@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <body>
+    <body bg=color"bule">
         <fieldset>
             <h2> Enter first number</h2>
             <input type="text" id="n1" name="n1" /><br>
